@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "MoabhoersFF";
+  src: url('../MoabhoersFF/SwistblnkMoabhoers.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Monthoers";
+  src: url('../Monthoers/Monthoers.ttf') format("truetype");
+}
+
+body {
+  /* background-image: url('../images/bg-gradient.png');
+  background-repeat: no-repeat;
+  background-size: 100%; */
+  background: rgb(117,199,219);
+  /* background: linear-gradient(rgba(117,199,219,1) 0%, rgba(149,209,222,1) 8%, rgba(245,248,230,1) 75%); */
+  background: linear-gradient( rgba(117,199,219,1) 3%, rgba(149,209,222,1) 32%, rgba(245,248,230,1) 48%, rgba(228,223,206,1) 69%, rgba(142,96,84,1) 87%, rgba(93,24,16,1) 100%);
+}
+
+.logo {
+  display: block;
+  width: 70vw;
+  max-width: 896px;
+  margin: 0 auto;
+}
+
+.subheading {
+  font-family: Monthoers;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 74px;
+  margin: 2% auto;
+  display: block;
+  width: 640px;
+  text-align: center;
+}
+
+.subheading > p, img {
+  display: inline-block;
+}
+
+.subheading > p {
+  margin: 0;
+  height: 85px;
+}
+
+.starburst {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.menu-section {
+  background: #f7f7e8;
+  border-radius: 2px;
+  margin: 0 20%;
+  padding: 1.5%;
+  text-align: center;
+}
+
+.music-menu {
+  display: inline-block;
+  margin-right: 7%;
+}
+
+.music-menu > img {
+  width: 20vw;
+}
+
+.food-menu > img {
+  width: 21.65vw;
+}
+
+.food-menu {
+  display: inline-block;
+}
+
+.lagniappe {
+  width: 55vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.blue {
+  width: 55vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.fine-print {
+  font-family: MoabhoersFF;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.sponsor > p {
+  font-family: Arial, sans-serif;
+  text-transform: lowercase;
+}
+
+footer > ul {
+  list-style: none;
+}
+
+footer > ul > li {
+  display: inline-block;
+  max-width: 140px;
+  margin: 0 10px;
+}
+
+footer > p {
+  /* duplicate css to sponsor p */
+  font-family: Arial, sans-serif;
+  text-transform: lowercase;
+}
