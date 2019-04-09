@@ -48,16 +48,21 @@ a {
 .subheading {
   font-family: Monthoers;
   color: #fff;
-  font-size: 4rem;
-  margin: 3% auto;
+  font-size: 6rem;
+  margin: 4% 0 0;
   display: block;
   text-align: center;
+}
+
+.starburst {
+  width: 110px;
 }
 
 
 @media screen and (max-width: 650px) {
   .subheading {
     font-size: 2rem;
+    margin: 5% auto 0;
   }
 }
 
@@ -162,8 +167,8 @@ ul {
 
 .fine-print {
   font-family: MoabhoersFF;
-  font-size: 30px;
-  color: #fff;
+  font-size: 3rem;
+  color: #5D1A10;
   text-align: center;
   word-spacing: 10px;
 }
@@ -181,7 +186,7 @@ ul {
 }
 
 .tix-link > a {
-  color: #fff;
+  color: #5D1A10;
 }
 
 @media screen and (max-width: 650px) {
@@ -204,6 +209,7 @@ ul {
   100%{opacity: 1;}
 }
 
+
 .sponsor > p {
   font-family: Arial, sans-serif;
   text-transform: lowercase;
@@ -225,7 +231,11 @@ footer > ul > li {
   margin: 0 10px;
 }
 
+.partners {
+  font-size: 3rem;
+}
+
 footer > p {
-  font-size: 24px;
+  font-size: 2rem;
   line-height: 24px;
 }
