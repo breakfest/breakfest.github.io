@@ -33,8 +33,20 @@ body {
   padding: 0;
 }
 
+.container {
+  background: url('../images/gradient.svg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 a {
   text-decoration: none;
+}
+
+.heading-section {
+  text-align: center;
 }
 
 .logo {
@@ -54,16 +66,22 @@ a {
   text-align: center;
 }
 
-.starburst {
-  width: 110px;
-}
-
-
 @media screen and (max-width: 650px) {
   .subheading {
     font-size: 2rem;
-    margin: 5% auto 0;
   }
+}
+
+.date {
+  margin: 4% 0 2%;
+}
+
+.time {
+  margin: 0;
+}
+
+.starburst {
+  width: 110px;
 }
 
 .menu-section {
@@ -99,6 +117,12 @@ a {
 @media screen and (max-width: 650px) {
   .music-menu {
     display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .food-menu {
+    margin: 5% 0 0;
   }
 }
 
