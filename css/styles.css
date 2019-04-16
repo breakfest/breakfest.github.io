@@ -225,23 +225,31 @@ footer {
   background-color: #fff;
   padding: 1%;
   font-family: Monthoers;
-  font-size: 36px;
-  line-height: 36px;
   text-align: center;
 }
 
-.thanks {
+@media screen and (max-width: 650px) {
+  footer {
+    padding: 1%;
+    font-size: 2rem;
+  }
+}
+
+.footer-header {
   margin: -4px;
   padding: 8% 0 5%;
   background: #5d1810;
-  color: rgba(245,248,230,1);
+  color: #f5f8e6;
 }
 
-.partners {
-  font-size: 3rem;
+@media screen and (max-width: 650px) {
+  .footer-header {
+    margin: -4px;
+    padding: 8% 0 5%;
+  }
 }
 
-.sponsor-list > li > p {
+.sponsor-item {
   font-family: helvetica;
   font-size: 1rem;
   line-height: 1.65rem;
@@ -250,8 +258,20 @@ footer {
   margin: 2% 0 3%;
 }
 
+@media screen and (max-width: 650px) {
+  .sponsor-item {
+    margin: 2% 0 3%;
+  }
+}
+
 .sponsor-list > li {
   margin-bottom: 10%;
+}
+
+@media screen and (max-width: 650px) {
+  .sponsor-list > li {
+    margin-bottom: 10%;
+  }
 }
 
 .sponsor-list > li > a {
@@ -262,13 +282,6 @@ footer {
 .sponsor-list > li > a > img {
   width: 120px;
   height: auto;
-
-  opacity: 1;
-  transition: opacity 0.3s;
-}
-
-.sponsor-list > li > a > img[data-src] {
-	opacity: 0;
 }
 
 .credit {
@@ -277,4 +290,10 @@ footer {
   font-size: 1rem;
   font-family: Monthoers;
   padding: 3% 0 2%;
+}
+
+@media screen and (max-width: 650px) {
+  .credit {
+    padding: 3% 0 2%;
+  }
 }
