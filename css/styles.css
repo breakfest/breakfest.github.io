@@ -90,106 +90,12 @@ a {
   text-align: center;
 }
 
-.menu-title {
-  font-family: Troika;
-  font-size: 6rem;
-  color: #fff;
-  text-shadow: 0px 7px #5D1A10;
-  margin-bottom: 2%;
-}
-
-@media screen and (max-width: 650px) {
-  .menu-title {
-    font-size: 2rem;
-    line-height: 3rem;
-    margin: 2% 0;
-  }
-}
-
-.music-menu {
-  display: inline-block;
-    /* outline: solid 5px #F7B957; */
-  width: 250px;
-  margin: 0 auto;
-  position: relative;
-}
-
-@media screen and (max-width: 650px) {
-  .music-menu {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .food-menu {
-    margin: 5% 0 0;
-  }
-}
-
-.squiggly-bg {
-  position: absolute;
-}
-
-.food-menu {
-  display: inline-block;
-}
-
 ul {
   list-style: none;
   padding: 0;
 }
 
-.menu-subtitle,
-.menu-list {
-  font-family: Monthoers;
-  color: #5D1A10;
-}
-
-.menu-subtitle {
-  font-size: 1rem;
-}
-
-@media screen and (max-width: 650px) {
-  .menu-subtitle {
-    margin: 1% 0;
-  }
-}
-
-.menu-list > li {
-  font-size: 2rem;
-  text-shadow: 0px 3px #F7B957;
-  padding-bottom: 2.5%;
-}
-
-.menu-list > li > a {
-  color: #5D1A10;
-  cursor: pointer;
-}
-
-.menu-list > li > a  { transition: all .2s ease-in-out; }
-.menu-list > li > a:hover { transform: scale(1.1); }
-
-.lagniappe {
-  width: 55vw;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 4%;
-}
-
-@media screen and (max-width: 650px) {
-  .lagniappe {
-    width: 315px;
-    margin: 2% auto;
-  }
-}
-
-.blue {
-  width: 55vw;
-  display: block;
-  margin: 0 auto;
-}
-
-.fine-print {
+.tix-section {
   font-family: MoabhoersFF;
   font-size: 3rem;
   color: #5D1A10;
@@ -198,7 +104,7 @@ ul {
 }
 
 @media screen and (max-width: 650px) {
-  .fine-print {
+  .tix-section {
     margin: 8% 0;
   }
 }
