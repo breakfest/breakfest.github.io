@@ -61,14 +61,22 @@ a {
   width: 55vw;
 }
 
-/* .subheading {
-  font-family: Monthoers;
-  color: #fff;
-  font-size: 6rem;
-  margin: 4% 0 0;
-  display: block;
-  text-align: center;
-} */
+@media screen and (max-width: 650px) {
+  .date-time {
+    width: 88vw;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+  /* .subheading {
+    font-family: Monthoers;
+    color: #fff;
+    font-size: 6rem;
+    margin: 4% 0 0;
+    display: block;
+    text-align: center;
+  } */
 
 @media screen and (max-width: 650px) {
   .subheading {
