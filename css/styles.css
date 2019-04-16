@@ -128,7 +128,7 @@ ul {
 
 .tix-section {
   font-family: MoabhoersFF;
-  font-size: 3rem;
+  font-size: 5rem;
   color: #5D1A10;
   text-align: center;
   word-spacing: 10px;
@@ -137,6 +137,7 @@ ul {
 @media screen and (max-width: 650px) {
   .tix-section {
     margin: 8% 0;
+    font-size: 3rem;
   }
 }
 
@@ -160,9 +161,10 @@ ul {
 
 footer {
   background-color: #fff;
-  padding: 1%;
+  padding: .25%;
   font-family: Monthoers;
   text-align: center;
+  font-size: 4rem;
 }
 
 @media screen and (max-width: 650px) {
@@ -188,7 +190,7 @@ footer {
 
 .sponsor-item {
   font-family: helvetica;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.65rem;
   color: #5d1810;
   text-transform: uppercase;
@@ -197,6 +199,7 @@ footer {
 
 @media screen and (max-width: 650px) {
   .sponsor-item {
+    font-size: 1rem;
     margin: 2% 0 3%;
   }
 }
@@ -212,19 +215,33 @@ footer {
 }
 
 .sponsor-list > li > a {
-  width: 120px;
+  width: 250px;
   height: auto;
 }
 
 .sponsor-list > li > a > img {
-  width: 120px;
+  width: 250px;
   height: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .sponsor-list > li > a > img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sponsor-list > li > a {
+    width: 120px;
+  }
 }
 
 .credit {
   background: #5d1810;
   color: #fff;
-  font-size: 1rem;
+  font-size: 2rem;
+  letter-spacing: .1rem;
   font-family: Monthoers;
   padding: 3% 0 2%;
 }
@@ -232,5 +249,6 @@ footer {
 @media screen and (max-width: 650px) {
   .credit {
     padding: 3% 0 2%;
+    font-size: 1rem;
   }
 }
