@@ -52,19 +52,23 @@ a {
 .logo {
   display: block;
   width: 70vw;
-  max-width: 896px;
+  max-width: 70%;
   margin: 0 auto;
   padding: 5% 0 0;
 }
 
-.subheading {
+.date-time {
+  width: 55vw;
+}
+
+/* .subheading {
   font-family: Monthoers;
   color: #fff;
   font-size: 6rem;
   margin: 4% 0 0;
   display: block;
   text-align: center;
-}
+} */
 
 @media screen and (max-width: 650px) {
   .subheading {
@@ -73,11 +77,25 @@ a {
 }
 
 .date {
-  margin: 4% 0 2%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 650px) {
+  .date {
+    display: block;
+    margin: 4% 0 2%;
+  }
 }
 
 .time {
-  margin: 0;
+  display: inline-block;
+}
+
+@media screen and (max-width: 650px) {
+  .time {
+    display: block;
+    margin: 0;
+  }
 }
 
 .starburst {
@@ -88,6 +106,19 @@ a {
   margin: 0 auto;
   padding: 1%;
   text-align: center;
+}
+
+@media screen and (min-width: 650px) {
+  .music,
+  .food {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .food {
+    margin-top: 10%;
+  }
 }
 
 ul {
