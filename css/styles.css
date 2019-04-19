@@ -22,11 +22,6 @@ body, html {
   margin: 0;
 }
 
-body {
-  background: #fff;
-  margin: 3%;
-}
-
 .bg {
   background: linear-gradient( rgba(149,209,222,1) 32%, rgba(245,248,230,1) 48%, rgba(228,223,206,1) 69%, rgba(142,96,84,1) 87%, rgba(93,24,16,1) 100%);
   height: 100%;
@@ -45,6 +40,78 @@ a {
   text-decoration: none;
 }
 
+header {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  margin: 0;
+  padding: 0 .5rem;
+  background: #fec23b;
+  /* opacity: .9; */
+  text-align: right;
+}
+
+.cta {
+  display: inline-block;
+  width: 30%;
+  padding: 0 3rem 0 0;
+  font-family: Monthoers;
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+
+  /* letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 1.2rem; */
+}
+
+.cta-link {
+  text-decoration: none;
+  color: #fff;
+  /* -webkit-animation:colorchange 20s infinite alternate; */
+
+  /* animation: brownwhite 1s ease infinite alternate; */
+  /* -webkit-animation:brownwhite 5s infinite alternate; */
+}
+
+.flash {
+  -webkit-animation:brownwhite 5s infinite alternate;
+
+}
+
+
+
+@-webkit-keyframes brownwhite {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: #85342f;
+  }
+/*
+  100% {
+    color: #fff;
+  }
+
+  50% {
+    color: #85342f;
+  } */
+}
+
+@-webkit-keyframes whitebrown {
+  0% {
+    color: #85342f;
+  }
+  50% {
+    color: #fff;
+  }
+
+  100% {
+    color: #85342f;
+  }
+}
+
 .heading-section {
   text-align: center;
 }
@@ -54,7 +121,7 @@ a {
   width: 70vw;
   max-width: 70%;
   margin: 0 auto;
-  padding: 5% 0 0;
+  padding: 6% 0 0;
 }
 
 .date-time {
