@@ -28,13 +28,7 @@ body, html {
   padding: 0;
 }
 
-.container {
-  background: url('../images/gradient.svg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+.container {}
 
 a {
   text-decoration: none;
@@ -333,6 +327,10 @@ footer {
 
 .sponsor-list > li {
   margin-bottom: 10%;
+}
+
+.sponsor-list > li:first-child {
+  margin-bottom: 1%;
 }
 
 @media screen and (max-width: 650px) {
