@@ -88,7 +88,7 @@ header {
   display: block;
   max-width: 70%;
   margin: 0 auto;
-  padding: 6% 0 0;
+  padding: 8% 0 0;
 }
 
 @media screen and (max-width: 650px) {
@@ -98,20 +98,11 @@ header {
   }
 }
 
-.date-time {
-  width: 55vw;
-}
-
-@media screen and (max-width: 650px) {
-  .date-time {
-    width: 88vw;
-    margin-top: 1rem;
-    margin-left: 1rem;
-  }
-}
+/* Sunday May 5 Second Line Brewery 9am 3pm vvvv */
 
 .subheading {
-  margin: 3rem 0;
+  margin: 5rem 0;
+  font-size: 5rem;
 }
 
 @media screen and (max-width: 650px) {
@@ -120,14 +111,9 @@ header {
   }
 }
 
-.date, .time {
+.date, .place {
   font-family: Monthoers;
-  font-size: 4rem;
   color: white;
-}
-
-.bigger {
-  letter-spacing: .015rem;
 }
 
 .date {
@@ -141,21 +127,21 @@ header {
   }
 }
 
-.time {
+.place {
   color: #5D1A10;
   padding: 1rem 0 .5rem;
   text-shadow: 2px 2px 2px #ffd480;
 }
 
 @media screen and (max-width: 650px) {
-  .time {
+  .place {
     display: block;
     margin: 0;
   }
 }
 
-.starburst {
-  width: 110px;
+.bigger {
+  letter-spacing: .015rem;
 }
 
 .music-title {
@@ -219,7 +205,7 @@ header {
   font-size: 2.3rem;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (max-width: 650px) {
   .smaller {
     font-size: 1.4rem;
   }
@@ -266,7 +252,7 @@ ul {
 
 @media screen and (max-width: 650px) {
   .tix-info {
-    margin: 3%;
+    margin: 3% 0 0;
   }
 }
 
